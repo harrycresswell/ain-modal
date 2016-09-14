@@ -1,0 +1,81 @@
+/* helpers */
+
+.col {
+  position: relative;
+  width: 50%;
+  float: left;;
+}
+
+.marginBottom-l {
+  margin-bottom: 30px;
+}
+
+.marginBottom-m {
+  margin-bottom: 20px;
+}
+
+.marginBottom-s {
+  margin-bottom: 15px;
+}
+
+.marginBottom-xs {
+  margin-bottom: 10px;
+}
+
+.marginTop-xs {
+  margin-top: 10px;
+}
+
+.textAlign-center {
+  text-align: center;
+}
+
+.textAlign-right {
+  text-align: right;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.fontSize-xl {
+  font-size: 24px;
+}
+
+.fontSize-xs {
+  font-size: 14px;
+}
+
+.c-dark {
+  color: #253142;
+}
+.c-dark-mid {
+  color: #4F5766;
+}
+
+/* Keyframes for the fade-in */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;
+  opacity: 1 \9; /*just in case ie*/
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.delay {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
